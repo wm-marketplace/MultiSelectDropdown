@@ -1,0 +1,68 @@
+{
+  "displayName" : "MultiSelectDropdown",
+  "group" : "",
+  "iconUrl" : "/resources/images/imagelists/prefab-icon.png",
+  "resources" : {
+    "styles" : [ "/pages/Main/Main.css" ],
+    "scripts" : [ ]
+  },
+  "properties" : {
+    "feilddataset" : {
+      "type" : "object",
+      "displayName" : "Feild Dataset",
+      "description" : "input for widget",
+      "bindable" : "in-out-bound",
+      "isList" : true,
+      "value" : "bind:Variables.stvSample.dataSet",
+      "widget" : "string",
+      "show" : true,
+      "disabled" : false
+    },
+    "feilddisplayvalue" : {
+      "type" : "string",
+      "displayName" : "Feild Display Value",
+      "description" : "Display Value of checkboxset",
+      "bindable" : "in-out-bound",
+      "value" : "",
+      "widget" : "string",
+      "show" : true,
+      "disabled" : false
+    },
+    "feilddeafultvalue" : {
+      "type" : "object",
+      "displayName" : "Feild Deafult Value",
+      "description" : "Default of checkboxset",
+      "bindable" : "in-bound",
+      "isList" : true,
+      "value" : "",
+      "widget" : "string",
+      "show" : true,
+      "disabled" : false
+    },
+    "selecteddata" : {
+      "type" : "object",
+      "displayName" : "Selected Data",
+      "description" : "Selected Data",
+      "bindable" : "in-out-bound",
+      "isList" : true,
+      "value" : "bind:Widgets.checkboxsetOptions.datavalue",
+      "widget" : "string",
+      "show" : false,
+      "disabled" : false
+    }
+  },
+  "events" : {
+    "onChange" : {
+      "description" : "Callback action which will be triggered on change of the prefab.",
+      "eventData" : ""
+    }
+  },
+  "methods" : {
+    "clearSelectedData" : {
+      "description" : "Method to clear selected data of checkboset",
+      "parameters" : [ ],
+      "returnType" : "void",
+      "example" : ""
+    }
+  }
+}

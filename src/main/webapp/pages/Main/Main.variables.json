@@ -1,0 +1,32 @@
+{
+  "stvSample" : {
+    "_id" : "wm-stvSample-wm.Variable-1599813818722",
+    "name" : "stvSample",
+    "owner" : "Page",
+    "category" : "wm.Variable",
+    "dataBinding" : [ ],
+    "dataSet" : [ {
+      "displayValue" : "India",
+      "dataValue" : "ind"
+    }, {
+      "displayValue" : "Germany",
+      "dataValue" : "ger"
+    } ],
+    "type" : "entry",
+    "isList" : true,
+    "twoWayBinding" : false,
+    "saveInPhonegap" : false
+  },
+  "supportedLocale" : {
+    "_id" : "wm-wm.Variable1402640443182",
+    "name" : "supportedLocale",
+    "owner" : "Page",
+    "category" : "wm.Variable",
+    "dataSet" : {
+      "en" : "English"
+    },
+    "type" : "string",
+    "isList" : false,
+    "saveInPhonegap" : false
+  }
+}
