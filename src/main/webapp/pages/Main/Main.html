@@ -1,0 +1,8 @@
+<wm-prefab-container name="prefab_container1">
+    <wm-container name="containerDropdown" class="MultiSelectDropdown">
+        <wm-select name="selectView" placeholder="bind:Widgets.checkboxsetOptions.datavalue == '' || Widgets.checkboxsetOptions.datavalue == null ? 'Select' :placeholderValue()" on-click="selectViewClick($event, widget)" on-blur="selectViewBlur($event, widget)"></wm-select>
+        <wm-container name="containerCheckList" class="checklist-content">
+            <wm-checkboxset height="auto" name="checkboxsetOptions" dataset="bind:feilddataset" datafield="All Fields" displayfield="bind:feilddisplayvalue" datavalue="bind:feilddeafultvalue" margin="unset unset 0px unset" on-click="checkboxsetOptionsClick($event, widget)"></wm-checkboxset>
+        </wm-container>
+    </wm-container>
+</wm-prefab-container>
