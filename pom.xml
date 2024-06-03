@@ -5,14 +5,14 @@
   <parent>
     <groupId>com.wavemaker.app</groupId>
     <artifactId>wavemaker-app-parent</artifactId>
-    <version>11.6.2</version>
+    <version>11.7.2</version>
   </parent>
   <groupId>com.wavemaker.project</groupId>
   <artifactId>MultiSelectDropdown</artifactId>
   <version>1.0</version>
   <packaging>war</packaging>
   <properties>
-    <wavemaker.app.runtime.ui.version>11.6.2-rc.159</wavemaker.app.runtime.ui.version>
+    <wavemaker.app.runtime.ui.version>11.7.2-rc.163</wavemaker.app.runtime.ui.version>
     <wavemaker.artifactType>wmapp</wavemaker.artifactType>
   </properties>
   <dependencyManagement />
