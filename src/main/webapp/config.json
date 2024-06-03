@@ -7,9 +7,9 @@
     "scripts" : [ ]
   },
   "properties" : {
-    "feilddataset" : {
+    "fielddataset" : {
       "type" : "object",
-      "displayName" : "Feild Dataset",
+      "displayName" : "Field Dataset",
       "description" : "input for widget",
       "bindable" : "in-out-bound",
       "isList" : true,
@@ -18,9 +18,9 @@
       "show" : true,
       "disabled" : false
     },
-    "feilddisplayvalue" : {
+    "fielddisplayvalue" : {
       "type" : "string",
-      "displayName" : "Feild Display Value",
+      "displayName" : "Field Display Value",
       "description" : "Display Value of checkboxset",
       "bindable" : "in-out-bound",
       "value" : "",
@@ -28,9 +28,9 @@
       "show" : true,
       "disabled" : false
     },
-    "feilddeafultvalue" : {
+    "fielddeafultvalue" : {
       "type" : "object",
-      "displayName" : "Feild Deafult Value",
+      "displayName" : "Field Deafult Value",
       "description" : "Default of checkboxset",
       "bindable" : "in-bound",
       "isList" : true,
