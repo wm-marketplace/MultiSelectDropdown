@@ -16,6 +16,7 @@
       "value" : "bind:Variables.stvSample.dataSet",
       "widget" : "string",
       "show" : true,
+      "showAt" : "",
       "disabled" : false
     },
     "fielddisplayvalue" : {
@@ -26,17 +27,19 @@
       "value" : "",
       "widget" : "string",
       "show" : true,
+      "showAt" : "",
       "disabled" : false
     },
-    "fielddeafultvalue" : {
+    "fielddefaultvalue" : {
       "type" : "object",
-      "displayName" : "Field Deafult Value",
+      "displayName" : "Field Default Value",
       "description" : "Default of checkboxset",
       "bindable" : "in-bound",
       "isList" : true,
       "value" : "",
       "widget" : "string",
       "show" : true,
+      "showAt" : "",
       "disabled" : false
     },
     "selecteddata" : {
@@ -48,6 +51,7 @@
       "value" : "bind:Widgets.checkboxsetOptions.datavalue",
       "widget" : "string",
       "show" : false,
+      "showAt" : "",
       "disabled" : false
     }
   },
